@@ -1,0 +1,33 @@
+# ── Large data directories (re-downloadable) ─────────────────────────────────
+Historical_FRED-MD/
+Historical-vintages-of-FRED-MD-2015-01-to-2024-12/
+MD_Test/
+Alt_Data/data/
+
+# ── Trained model pickles ─────────────────────────────────────────────────────
+*.pkl
+
+# ── Raw scraped / intermediate data CSVs ─────────────────────────────────────
+data/gdelt_raw_headlines.csv
+data/gdelt_scored.csv
+data/gdelt_sentiment_daily.csv
+data/headlines_by_ticker.csv
+
+# ── Python artifacts ──────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ── Editor / tool config ──────────────────────────────────────────────────────
+.claude/
+.vscode/
+*.code-workspace
+
+# ── OS junk ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Secrets / env ─────────────────────────────────────────────────────────────
+.env
+*.env
